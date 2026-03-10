@@ -42,10 +42,13 @@ namespace AkademikADOApp
                 if (conn != null && conn.State == System.Data.ConnectionState.Open)
                 {
                     conn.Close();
-                    
+
                     lblStatus2.Text = "Status : Database Disconnected";
 
                     MessageBox.Show("Koneksi berhasil diputus");
+                }
+                else
+                { 
                 }
             }
         }
