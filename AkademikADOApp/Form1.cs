@@ -48,11 +48,14 @@ namespace AkademikADOApp
                     MessageBox.Show("Koneksi berhasil diputus");
                 }
                 else
-                { 
-                    MessageBox.Show ("Koneksi memang sudah tertutup.");
+                {
+                    MessageBox.Show("Koneksi memang sudah tertutup.");
                 }
             }
             catch (Exception ex)
+            {
+                MessageBox.Show("Gagal memutuskan koneksi: " + ex.Message);
+            }
         }
 
-}
+
