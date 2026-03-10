@@ -38,6 +38,9 @@ namespace AkademikADOApp
         private void btnDisconnect_Click(object sender, EventArgs e)
         {
             try
+            {
+                if (conn != null && conn.State )
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
