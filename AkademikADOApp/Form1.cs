@@ -52,11 +52,7 @@ namespace AkademikADOApp
                     MessageBox.Show ("Koneksi memang sudah tertutup.");
                 }
             }
+            catch (Exception ex)
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-    }
 }
