@@ -49,7 +49,7 @@ namespace AkademikADOApp
                 }
                 else
                 { 
-                    MessageBox.Show 
+                    MessageBox.Show ("Koneksi memang sudah tertutup.");
                 }
             }
         }
