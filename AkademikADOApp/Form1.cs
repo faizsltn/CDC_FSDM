@@ -49,6 +49,7 @@ namespace AkademikADOApp
                 }
                 else
                 { 
+                    MessageBox.Show 
                 }
             }
         }
