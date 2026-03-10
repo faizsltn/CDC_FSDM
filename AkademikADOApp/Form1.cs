@@ -39,7 +39,7 @@ namespace AkademikADOApp
         {
             try
             {
-                if (conn != null && conn.State )
+                if (conn != null && conn.State == System.Data.ConnectionState.Open)
             }
         }
 
